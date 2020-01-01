@@ -4,7 +4,7 @@
         "urlPath": "/rest/v1.1/sites/106707880/media/",
         "queryParameters": {
             "number": {
-                "equalTo": "48"
+                "matches": "(48)?"
             },
             "locale": {
                 "matches": "(.*)"

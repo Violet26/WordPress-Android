@@ -1,12 +1,12 @@
 {
     "request": {
-        "urlPattern": "/rest/v1.1/me/settings.*",
-        "method": "POST"
+        "method": "GET",
+        "urlPathPattern": "/rest/v1.1/sites/106707880/stats/post/(.*)(/?)"
     },
     "response": {
         "status": 200,
         "jsonBody": {
-            "password": ""
+            "views": 35
         },
         "headers": {
             "Content-Type": "application/json",
